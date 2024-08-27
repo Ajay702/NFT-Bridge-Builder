@@ -20,7 +20,7 @@ The NFT Bridge Builder project demonstrates how to bridge NFTs between two Ether
 ## Steps for Bridging
 
 1. Run npm i to install dependencies
-2. Run npx hardhat run scripts/deploy.js --network goerli to deploy ERC721 contract
+2. Run npx hardhat run scripts/deploy.js --network sepolia to deploy ERC721 contract
 3. Paste the newly deployed contract address in the tokenAddress variable for the other scripts
 4. Run npx hardhat run scripts/mint.js --network sepolia to mint tokens to your wallet
 5. Run npx hardhat run scripts/approveDeposit.js --network sepolia to approve and deposit your tokens to polygon
